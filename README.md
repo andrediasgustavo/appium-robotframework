@@ -2,13 +2,13 @@
 
 This repository contains automated UI tests for the Qazando Food Android application. The tests are written using **Robot Framework** and executed via **Appium**, utilizing the W3C standard with the UiAutomator2 driver.
 
-## 📋 Project Structure
+## Project Structure
 
 *   **`tests/login/login.robot`**: The main test suite containing the Appium keywords, setup/teardown configurations, and the test cases.
 *   **`tests/login/login_test_data.robot`**: A resource file used to cleanly separate and store test data, such as login credentials.
 *   **`app/qazandofood.apk`**: The target Android application binary used for local execution.
 
-## 🧪 Test Scenarios
+## Test Scenarios
 
 The current test suite focuses on the authentication flow, ensuring that both successful logins and form validations behave as expected.
 
@@ -21,7 +21,7 @@ The current test suite focuses on the authentication flow, ensuring that both su
 *   **Scenario 4: Try to login without email and password**
     *   Submits the form with both fields completely blank, validating the application's required field error handling.
 
-## 🚀 How to Run
+## How to Run
 
 ### Prerequisites
 
