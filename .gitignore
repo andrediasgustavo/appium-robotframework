@@ -1,0 +1,51 @@
+# ---------------------------------------------------
+# Robot Framework Reports & Logs
+# ---------------------------------------------------
+log.html
+report.html
+output.xml
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.zip
+
+# ---------------------------------------------------
+# Python Environments & Caches
+# ---------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+
+# ---------------------------------------------------
+# Appium & Mobile App Binaries
+# ---------------------------------------------------
+# Uncomment the line below if you DO NOT want to commit your .apk files
+# *.apk
+# *.ipa
+appium-server-logs.txt
+appium.log
+
+# ---------------------------------------------------
+# IDEs & Editor configurations
+# ---------------------------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---------------------------------------------------
+# OS Generated Files (macOS, Windows, etc.)
+# ---------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
